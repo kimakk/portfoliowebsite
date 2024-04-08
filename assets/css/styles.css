@@ -1,0 +1,60 @@
+body {
+  margin: 20px;
+  text-align: center;
+}
+
+.video video:hover {
+  transform: scale(1.05);
+  /* Scale up by 5% */
+}
+
+/* Optional: Add transition for smooth scaling */
+.video video {
+  transition: transform 0.3s ease-in-out;
+}
+
+h2,
+h3 {
+  margin: 10px 0;
+  /* Add margin to create space around headings */
+}
+
+h1 {
+  font-family: "avara", Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight: bold;
+  margin: 50px 40px 50px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "avara", Helvetica, Arial, sans-serif;
+  ;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 20px 0;
+  line-height: 1.3;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 12px;
+  margin: 20px 0;
+  line-height: 1.3;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video {
+  margin: 20px;
+}
+
+video {
+  width: 500px;
+  height: auto;
+}

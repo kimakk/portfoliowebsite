@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "ABCFavorit";
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+  src: url("../fonts/ABCFavorit-Book-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "avara";
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+  src: url("../fonts/Avara-BoldItalic.otf") format("opentype");
+}
